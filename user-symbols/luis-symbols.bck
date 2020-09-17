@@ -1,9 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP BMP388
-D Absolute Barometric Pressure Sensor, LGA-8
-K I2C, SPI, pressure, temperature, sensor
-F https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMP280-DS001.pdf
+$CMP C2_Interface
+D Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
+$CMP Conn_14_Fcon
+D Generic connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
 $ENDCMP
 #
 #End Doc Library
